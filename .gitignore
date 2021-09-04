@@ -1,0 +1,10 @@
+# Vscode config
+.vscode
+# We do not track files with some extensions
+*.h5
+*.tar
+*.pyc
+__pycache__/
+*.jpg
+# Logs
+log

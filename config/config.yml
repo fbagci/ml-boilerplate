@@ -1,0 +1,11 @@
+SERVICE:
+  PORT: 6000
+LOG:
+  BASEDIR: "./log"
+  # For more info visit: https://strftime.org/
+  # UTC time
+  TIME_FORMAT: "%d_%m_%Y__%H_%M_%S_%f"
+  # ENABLE: true, false
+  ENABLE: "false"
+  # LEVEL: debug, info, warning, error, critical
+  LEVEL: "debug"

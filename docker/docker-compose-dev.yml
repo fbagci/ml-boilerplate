@@ -1,0 +1,13 @@
+services:
+  package_name:
+    build: .
+    ports: 
+      - 6000:6000
+    volumes:
+      - $PWD:/project_name
+    environment:
+      PYTHONPATH:/project_name
+    # Run container in interactive mode
+    # Prevent container to stop
+    stdin_open: true
+    tty: true

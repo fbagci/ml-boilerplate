@@ -1,0 +1,5 @@
+*
+!./install/install_libs.sh
+!./requirements.txt
+!./src
+!./config/config.yml
