@@ -1,11 +1,9 @@
 SERVICE:
   PORT: 6000
 LOG:
-  BASEDIR: "./log"
-  # For more info visit: https://strftime.org/
-  # UTC time
-  TIME_FORMAT: "%d_%m_%Y__%H_%M_%S_%f"
-  # ENABLE: true, false
+  # Enable or disable logging -> "true" or "false"
   ENABLE: "false"
-  # LEVEL: debug, info, warning, error, critical
+  # Path where log files will be saved
+  PATH: "./log"
+  # Logging level: debug, info, warning, error, critical
   LEVEL: "debug"
